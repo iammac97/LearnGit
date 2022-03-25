@@ -11,12 +11,16 @@ def print_hi(name):
 def sum(a,b):
     print("Sum is :",a+b)
 
+def sub(a,b):
+    print("Subtraction is :",a-b)
+
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     a=int(input("Enter first number:"))
     b = int(input("Enter second number:"))
     sum(a,b)
+    sub(a,b)
     print_hi('Hello welcome in python!')
 
 
